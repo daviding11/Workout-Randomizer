@@ -87,7 +87,7 @@ bad_urls = []
 
 #open up connection
 #Establish the Connection
-conn = psycopg2.connect(database="Exercises", user='postgres', password='Umbreon11!', host='localhost', port= '5434')
+conn = psycopg2.connect(database="xxx", user='postgres', password='xxx', host='localhost', port= '5434')
 
 #Setting auto commit false
 conn.autocommit = True
